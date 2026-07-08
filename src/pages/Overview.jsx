@@ -542,7 +542,7 @@ export default function Overview() {
     <div className="overview-dashboard">
       {/* Welcome Message */}
       <div className="welcome-section">
-        <h2>Welcome back, {profile?.full_name?.split(" ")[0] || "User"}!</h2>
+        <h2>Welcome, {profile?.full_name?.split(" ")[0] || "User"}!</h2>
         <p className="welcome-subtitle">
           {isSuperAdmin
             ? "Super Admin Dashboard - Overview of all properties and users"
