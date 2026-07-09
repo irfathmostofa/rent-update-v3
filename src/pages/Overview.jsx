@@ -540,7 +540,6 @@ export default function Overview() {
 
   return (
     <div className="overview-dashboard">
-      {/* Welcome Message */}
       <div className="welcome-section">
         <h2>Welcome, {profile?.full_name?.split(" ")[0] || "User"}!</h2>
         <p className="welcome-subtitle">
